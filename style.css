@@ -1,0 +1,89 @@
+body {
+  background-color: white;
+}
+
+.container {
+  max-width: 900px;
+  text-align: center;
+}
+
+.header {
+  background-color: skyblue;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.site-title {
+  text-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  justify-content: center;
+  gap: 20px;
+}
+
+li a {
+  text-decoration: none;
+  color: #333333;
+}
+
+a:hover {
+  color: darkblue;
+}
+
+.card {
+  background-color: lightpink;
+  padding: 5px;
+  margin: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  
+}
+
+.card h2 {
+  text-align: left;
+  color: white;
+  text-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+#message {
+  text-align: justify;
+  color: white;
+  text-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  font-weight: bold;
+}
+
+#love {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  text-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#promise {
+  text-align: justify;
+  color: white;
+  text-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+  background-color: lightgreen;
+  border-radius: 5px;
+  padding: 1px;
+  border: 1px solid black;
+}
+
+@media (max:width: 600px) {
+  .navbar ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
